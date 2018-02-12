@@ -7,7 +7,7 @@ This is a Blender controller which is implemented by Arduino.
 ## (1) Connect MPU-6050 Sensor to Arduino 
 - SDA : GPIO 05
 - SCL : GPIO 04
--  offcourse GND and VCC also.
+- GND and VCC also.
 
 ## (2) Write Audiono Program into ESP32
 
