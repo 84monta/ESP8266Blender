@@ -1,28 +1,24 @@
 # What is this!?
 
-This is Blender controller which is implemented by Arduino. 
-
-Arduino Directry contains Sketch for ESP8266
-Blender Directory contains python Add-on for Blender
+This is a Blender controller which is implemented by Arduino. 
 
 #How to use
 
-(1) Connect MPU-6050 Sensor to Arduino 
+## (1) Connect MPU-6050 Sensor to Arduino 
+- SDA : GPIO 05
+- SCL : GPIO 04
+-  offcourse GND and VCC also.
 
-SDA : GPIO 05
-
-SCL : GPIO 04
+## (2) Write Audiono Program into ESP32
 
 
-(2) Write Audiono Program 
+## (3) Connect WiFi (followings are default)
+- SSID:MYESP
+- PASSWD:12345678ABC
 
-(3) Connect WiFi (followings are default)
-
-SSID:MYESP
-
-PASSWD:12345678ABC
-
-(4) Access to ESP and test 
+## (4) Access to ESP and test 
 
 http://192.168.100.1/value
     
+## (5) Run Direction.py script from Blender
+
